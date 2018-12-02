@@ -1,12 +1,15 @@
-### Escuela Colombiana de Ingeniería
-### Arquitecturas de Software
 
-#### Escalamiento con balanceo de carga 
-#### Brokers de Mensajería y Balanceadores de carga
+### Escuela Colombiana de Ingeniería
+### Arquitecturas de Software - ARSW
+
+## Escalamiento con balanceo de carga  Brokers de Mensajería y Balanceadores de carga
 
 En este ejercicio va a crear un esquema de balanceo de carga a través de una red de máquinas virtuales (guest), las cuales sólo serán visibles desde la máquina 'host'.
 
-# Parte 0 - Entorno virtual
+### Dependencias
+* Máquinas virtuales ubuntu
+
+### Parte 0 - Entorno virtual
 
 1. Importe la máquina virtual suministrada (extensión .ova).
 2. Antes de iniciar la máquina virtual, configure las redes de VirtualBox (File/Preferences/Network). Si no está configurada, agregue una red NAT (NatNework) y otra red Host-only Network (vboxnet0)
